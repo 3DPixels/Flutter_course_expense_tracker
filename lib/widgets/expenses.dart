@@ -40,7 +40,6 @@ class _ExpensesState extends State<Expenses> {
   void _addExpense(Expense expense) {
     setState(() {
       _registeredExpenses.add(expense);
-      Navigator.pop(context);
     });
   }
 
